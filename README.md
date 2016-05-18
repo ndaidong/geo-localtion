@@ -17,16 +17,17 @@ The web now lives at default port 9999, you can use it by opening the following 
 http://localhost:9999/?ip=IP_ADDRESS
 ```
 
-Replace IP_ADDRESS with any real IP v4 address.
+(Replace IP_ADDRESS with any real IP v4 address.)
 
-If you want to use another port, just change configs:
+If you want to use another port, please add custom configs:
 
 ```
 mkdir configs/env
 cp configs/vars.sample.js configs/env/vars.js
 nano configs/env/vars.js
-// change port, save file and restart server to get it done
 ```
+
+Environment config file would be openned in your command line interface, just change port, save file and restart server to get it done.
 
 ### License
 
